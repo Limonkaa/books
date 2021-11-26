@@ -1,0 +1,106 @@
+@media(min-width: 300px){
+    body{
+        display: flex;
+        flex-direction: row;
+        align-items: stretch;
+    }
+
+}
+
+
+body{
+    background-color: #FFF9B6;
+    margin: 0;
+    display: block;
+   
+}
+.head{
+    background-color: #F6D167;
+    padding: auto;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 100;
+    padding: 10px;
+    cursor: pointer;
+}
+ul{
+    list-style: none;
+}
+.nav-links, a, .reg{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Balsamiq Sans', cursive;
+    color: #630A10;
+}
+.nav-links{
+    display: flex ;
+    list-style: none;
+}
+.nav-links, li{
+    padding: 0px 20px;
+}
+.nav-links, a{
+    transition: background-color color 0.3s ease 0s;
+}
+.nav-links:hover, a:hover{
+    color: rgb(253, 225, 171);
+}
+
+.reg{
+    padding: 10px;
+}
+.registration, .entrance{
+    padding:  9px 25px;
+    background-color: rgb(253, 225, 171);
+    border: none;
+    border-radius: 50px;
+    transition: background-color color 0.3s ease 0s;
+    margin: 10px;
+}
+
+.registration:hover, .entrance:hover{
+    background-color: hsl(356,81.7%,21.4%, 0.651);
+    color: rgb(253, 225, 171);
+}
+.container{
+    display: flex;
+}
+.side{
+flex: 1;
+box-decoration-break: clone;
+}
+.jakor{
+    padding: 20px;
+    margin: auto;
+    
+}
+.main{
+    flex: 4;
+    border-left: solid 1px brown;
+}
+
+
+
+
+
+
+
+
+
+.foot{
+    height: 50px ;
+    font-family: 'Balsamiq Sans', cursive;
+    color: #630A10;
+    opacity: 0.6;text-align: center;
+    border:#630A10 solid 1px ;
+    margin: 0%;
+   
+
+}
+
+
+
